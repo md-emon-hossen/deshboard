@@ -1,0 +1,85 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.topber {
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    position: sticky;
+    top: 0px;
+    z-index: 999;
+}
+
+.topbarwrpper {
+    height: 100%;
+    display: flex;
+    max-width: 1400px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: darkblue;
+    cursor: pointer;
+}
+
+.topberRight {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.topbericons {
+    font-size: 30px !important;
+    position: relative;
+    cursor: pointer;
+}
+
+.tooltip {
+    background: red;
+    color: #fff;
+    border-radius: 50%;
+    height: 15px;
+    transform: translateX(-14px);
+    width: 15px;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    font-size: 13px;
+}
+
+.currentuser {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.currentuser>p {
+    color: black;
+    text-transform: capitalize;
+    padding-right: 10px;
+    transform: translateY(-10px);
+}
+
+.currentuser>img {
+    width: 85%;
+    height: 85%;
+    border-radius: 50%;
+}
+
+.settingIcons {
+    rotate: 20deg;
+}

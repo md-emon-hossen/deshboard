@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import {
+  BrowserRouter, Route, Routes
+} from "react-router-dom";
+import RequireUser from './componnents/validRouter/RequireUser';
+import Login from "./page/Login";
+import MainDelectUser from "./page/MainDelectUser";
+import MainProduct from "./page/MainProduct";
+import MainUpdateUser from "./page/MainUpdateUser";
+import MailUser from './page/MainUser';
+import MianHome from "./page/MianHome";
+import Signup from "./page/Signup";
+
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+  return <>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<RequireUser><MianHome /></RequireUser>} />
+        <Route path='/login' element={<Login />} />
+        <Route path="/signup" element={<Signup />} />
+        <Route path="/user" element={<RequireUser><MailUser /></RequireUser>} />
+        <Route path="/product" element={<RequireUser><MainProduct /></RequireUser>} />
+        <Route path="/updateuser" element={<RequireUser><MainUpdateUser /></RequireUser>} />
+        <Route path="/delectuser" element={<RequireUser><MainDelectUser /></RequireUser>} />
+      </Routes>
+    </BrowserRouter>,
+  </>
 }
 
 export default App;

@@ -1,0 +1,85 @@
+.transitionwrper {
+    flex: 4;
+    box-shadow: 0 7px 30px -10px rgba(139, 153, 160, 0.5);
+}
+
+.transitionwrper>h1 {
+    color: rgb(78, 78, 78);
+    padding: 5px 0px 6px 15px;
+    font-size: 27px;
+}
+
+.transitionitem {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 15px 15px 15px;
+    align-items: center;
+
+}
+
+.table {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: none;
+}
+
+table>tr {
+    display: flex;
+}
+
+table>tr>td {
+    padding: 20px;
+
+}
+
+.header {
+    display: flex !important;
+
+}
+
+.customer {
+    flex: 3.5;
+}
+
+.date {
+    flex: 3;
+}
+
+.amount {
+    flex: 2;
+}
+
+.status {
+    flex: 1.5;
+}
+
+.header>td {
+    color: rgb(60, 60, 60);
+    margin: 18px;
+    font-weight: 600;
+    font-size: 22px;
+
+}
+
+.transitionitem>div {
+    text-align: center;
+    margin: 8px 18px 8px 18px;
+}
+
+.transitionprofile {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.singleprofile>h3 {
+    color: rgb(83, 83, 83);
+}
+
+.singleprofile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}

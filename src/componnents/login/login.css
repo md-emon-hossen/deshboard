@@ -1,0 +1,44 @@
+.loginbosy {
+    height: fit-content;
+    margin: auto;
+    align-items: center;
+    margin-top: 250px;
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+
+
+}
+
+.loginbosy>input {
+    width: 96%;
+    height: 35px;
+    margin: 10px 10px;
+    color: black;
+    padding: 5px;
+}
+
+.btn {
+    width: 99% !important;
+    height: 35px;
+    background: purple;
+    color: #fff;
+    font-size: 19px;
+    border: none;
+    cursor: pointer;
+    margin: auto !important;
+    margin-top: 10px !important;
+    /* margin: 10px 0px 0px 10px; */
+}
+
+button:hover {
+    background-color: rgb(80, 11, 80);
+}
+
+p {
+    color: red;
+    font-weight: 400;
+    padding-top: 8px;
+}

@@ -1,0 +1,25 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.homewrper {
+    flex: 4;
+}
+
+.mainContaier {
+
+    display: flex;
+    justify-content: space-between;
+    padding-right: 45px;
+}
+
+.member {
+    width: 97%;
+    height: 400px;
+    margin-top: 40px;
+    display: flex;
+    gap: 50px;
+}

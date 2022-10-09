@@ -1,0 +1,82 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.updateModalWrpter {
+    flex: 4;
+
+
+}
+
+button {
+    width: 130px;
+    border-radius: 5px;
+    margin: 15px 45px 0px 0px;
+    cursor: pointer;
+
+}
+
+.createbtn {
+    margin-right: 0px;
+    margin-left: 72%;
+}
+
+.singleUpdateData {
+    width: 90%;
+    margin: 40px 0px 0px 15px;
+    height: 510px;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+}
+
+h1 {
+    text-align: left;
+    padding-left: 40px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.inputwrp {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 75%;
+    text-align: left;
+    margin-top: 10px;
+    gap: 10px;
+    padding-left: 40px;
+}
+
+.inputwrp>input {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgb(154, 154, 154);
+    color: black;
+    font-size: 18px;
+}
+
+.uplodeAndUpdate {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding-left: 40px;
+
+}
+
+label {
+    color: rgb(72, 72, 72);
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.updatebtn {
+    cursor: pointer;
+
+}
+
+.file {
+    cursor: pointer;
+}

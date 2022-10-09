@@ -1,0 +1,83 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.updewrper {
+    flex: 2;
+
+}
+
+h1 {
+    padding: 15px;
+}
+
+.singleProfile {
+    width: 90%;
+    margin: 20px 0px 0px 15px;
+    height: 510px;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+
+}
+
+.profilename {
+    color: rgb(55, 55, 55);
+}
+
+.profileTilte {
+    color: rgb(94, 94, 94);
+    ;
+
+}
+
+.aboutProfile {
+    display: flex;
+    flex-direction: column;
+    gap: 15;
+}
+
+.accountDetail {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.contactDetail {
+    padding-left: 20px;
+    margin-top: 30px;
+    text-align: left;
+
+}
+
+.accountDetail>div {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 5px;
+    color: rgb(80, 80, 80);
+    font-weight: 600;
+    font-size: 18px;
+
+}
+
+.profileHead {
+    color: rgb(53, 53, 53);
+    font-size: 20px;
+}
+
+.contactDetail>div {
+    display: flex;
+    font-size: 18px;
+    gap: 10px;
+    align-items: center;
+    padding: 5px;
+    color: rgb(80, 80, 80);
+    font-weight: 600;
+
+}

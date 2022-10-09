@@ -1,0 +1,57 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.userwrper {
+    flex: 4;
+
+    padding-right: 45px;
+}
+
+
+.htd {
+    padding: 20px;
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: rgb(94, 94, 94);
+    border-top: 1.5px solid rgb(233, 233, 233);
+}
+
+.td {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    border-top: 1.5px solid rgb(233, 233, 233);
+    color: rgb(94, 94, 94);
+    font-size: 18px;
+}
+
+.userProfile {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.usertitle {
+    font-size: 18px;
+    color: rgb(94, 94, 94);
+    font-weight: 500;
+
+}
+
+.EditBtn {
+    cursor: pointer;
+}
+
+.DeleteBtn {
+    cursor: pointer;
+}
+
+tr:hover {
+    background: rgb(240, 240, 240);
+}

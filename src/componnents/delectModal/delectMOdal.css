@@ -1,0 +1,12 @@
+.delectmodalerper {
+    flex: 3.5;
+}
+
+.singledelectData {
+    width: 90%;
+    margin: 90px 0px 0px 15px;
+    height: 510px;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+}

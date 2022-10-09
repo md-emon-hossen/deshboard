@@ -1,0 +1,79 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.updateModalWrpter {
+    flex: 4;
+
+
+}
+
+
+
+
+.singleUpdateData {
+    width: 50%;
+
+    height: 560px;
+    margin: auto;
+    margin-top: 120px;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+}
+
+
+.inputwrp {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 80%;
+    text-align: left;
+    margin: auto;
+    margin-top: 10px;
+    gap: 10px;
+
+}
+
+.inputwrp>input {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgb(154, 154, 154);
+    color: rgb(151, 151, 151);
+    font-size: 18px;
+}
+
+.uplodeAndUpdate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+
+}
+
+label {
+    color: rgb(56, 56, 56);
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.updatebtn {
+    cursor: pointer;
+    width: 99% !important;
+    height: 35px;
+    background: purple;
+    color: #fff;
+    font-size: 19px;
+    border: none;
+    cursor: pointer;
+    margin: auto !important;
+    margin-top: 10px !important;
+
+}
+
+.file {
+    cursor: pointer;
+}
